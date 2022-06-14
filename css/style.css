@@ -1,0 +1,730 @@
+@font-face {
+  font-family: "RedHatDisplay-Regular";
+  src: url("../fonts/RedHatDisplay-Regular.woff") format("woff");
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    font-family: "RedHatDisplay-Regular";
+  }
+
+/*---------------------Header beggins--------------------*/
+header{
+	background: transparent;
+
+}
+.mainmenu__item{
+
+display: flex;
+padding-right: 45px;
+align-items: center;
+text-decoration: none;
+}
+
+.container{
+	padding-top: 65px;
+	max-height: 622px;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1440px;
+  padding-left: 165px;
+  background: transparent;
+}
+
+
+.mainmenu__list{
+    display: flex;
+    margin-left: 100px;
+    padding-left: 0;
+	 align-items: center;
+  	list-style-type: none;
+  	background: transparent;
+    font-family: "RedHatDisplay-Regular";
+}
+
+.menu__link{
+  text-decoration: none;
+  font-family: "RedHatDisplay-Regular";
+  color: #666666;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26.46px;
+}
+
+.menu__link:hover{
+  color: #25202F;
+  text-decoration: none;
+}
+
+.logo{
+	display: flex;
+align-items: center;
+}
+
+.navbar-toggler{
+  display: block;
+}
+
+/*---------------------Header End---------------------*/
+
+main{
+  background: transparent; 
+}
+
+/*---------------------Hello, Adam Zakob---------------------*/
+
+.blur{
+width: 100.95px;
+height: 100.95px;
+padding-left: 1363.25px;
+padding-top: 315.92px;
+background: rgba(90, 248, 153, 0.7);
+filter: blur(250px);
+transform: rotate(134.4deg);
+}
+
+.man{
+  display: flex;
+  margin: 0 auto;
+  max-width: 1440px;
+ padding-top: 172px;
+  justify-content: space-between;
+  height:678px;
+  padding-right: 144px;
+}
+
+.parenek{
+  position: relative;
+  bottom: 480px;
+  left: 664px;
+}
+
+.textt2{
+  margin: 0 auto;
+  max-width: 1440px;
+  padding-left: 165px;
+	padding-right: 144px;
+	font-family: "RedHatDisplay-Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  color: #666666;
+}
+
+.textt3{
+  margin: 0 auto;
+  max-width: 1440px;
+  padding-left: 165px;
+  padding-right: 144px;
+  font-family: "RedHatDisplay-Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 120%;
+  color: #25202F;
+}
+
+.textt4{
+  margin: 0 auto;
+  max-width: 1440px;
+  padding-left: 165px;
+  padding-right: 144px;
+  font-family: "RedHatDisplay-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  color: #25202F;
+  }
+
+.textt{
+  margin: 0 auto;
+  max-width: 1440px;
+   font-size: 24px;
+   padding-left: 165px;
+}
+
+.button{
+  display: block;
+    width: 200px;
+    height: 60px;
+    margin-left: 165px;
+    margin-top: 50px;
+    border-radius: 100px;    
+    background-color: #8643DC;
+    color: #ffff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 60px;
+    text-align: center;
+    font-family: "RedHatDisplay-Regular";
+    text-decoration: none;
+}
+
+.button:hover{
+  text-decoration: underline;
+}
+
+/*---------------------Goodbye, Adam Zakob---------------------*/
+
+.shar{
+  transform: translateY(1540px);
+  transform: translateX(-40px);
+}
+
+/*---------------------Services-----------------------------*/
+
+.love{
+  margin: 0 auto;
+    max-width: 1440px;
+    padding-left: 165px;
+    display: flex;
+}
+
+.lovedo{
+justify-content: space-between;
+padding-right: 30px;
+}
+
+.dolove{
+	display: flex;
+margin-top: 50px;
+}
+
+.dolove p{
+	margin: auto 0;
+	justify-content: space-between;
+	padding-left: 20px;
+}
+
+.description{
+  width: 350px;
+  font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+margin-bottom: 100px;
+}
+
+
+.services{
+	margin: 0 auto;
+	padding-left: 165px;
+	max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.services h3{
+color: #8643DC;
+}
+
+.services h2{
+color: #25202F;
+}
+
+.dolove p{
+  color: #25202F;
+  font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+}
+
+
+.rectangleeee{
+width: 50px;
+height: 2px;
+left: 165px;
+top: 802px;
+background: #8643DC;
+}
+
+
+
+/*---------------------Portfolio-----------------------------*/
+
+.portfolio{
+	margin: 0 auto;
+  display: flex;
+  max-width: 1440px;
+   padding-left: 165px;
+   padding-top: 50px;
+  flex-direction: column;
+  height: 772px;
+  background: linear-gradient(180deg, rgba(187, 133, 255, 0.14) 23%, rgba(255, 177, 222, 0.14) 34%);
+}
+
+.portfolio h3{
+  font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+  color: #8643DC;
+}
+
+.portfolio h2{
+  width: 204px;
+  font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+color: #25202F;
+}
+
+.explore{
+  position: relative;
+    bottom: 125px;
+    display: flex;
+    margin-left: auto;
+    margin-right: 226px;
+    align-items: center;
+}
+
+
+.arr{
+height: 16px;
+width: 18px;
+align-items: center;
+margin-left: 13px;
+}
+
+.more{
+
+  max-width: 1440px;
+
+}
+
+.screen{
+	padding-right: 30px;
+	height: 427px;
+	width: 540px;
+}
+
+
+/*---------------------Clients-----------------------------*/
+
+.clients{
+	margin: 0 auto;
+  display: flex;
+  max-width: 1440px;
+   padding-left: 165px;
+   padding-top: 100px;
+   height: 722px;
+  flex-direction: column;
+}
+
+.clients h2{
+  width: 140px;
+  font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+color: #25202F;
+}
+.clients h3{
+color: #8643DC;
+}
+.icons{
+	width: 170px;
+	height: 170px;
+	margin-left: 50px;
+	background: #FFE7F0;
+}
+.icons1{
+	width: 170px;
+	height: 170px;
+	margin-left: 50px;
+	background: #CAFFE1;
+}
+.icons2{
+	width: 170px;
+	height: 170px;
+	margin-left: 50px;
+	background: #DDF5FF;
+}
+.icons3{
+	width: 170px;
+	height: 170px;
+	margin-left: 50px;
+	background: #FFEEC9;
+}
+.icons4{
+	width: 170px;
+	height: 170px;
+	margin-left: 50px;
+	background: #DBFFC3;
+}
+.deal{
+	display: flex;
+  justify-content: flex-start;
+}
+
+.islack{
+	text-align: center;
+	margin-top: 30px;
+}
+
+.slack{
+	display: block;
+  margin: 0 auto;
+  margin-top: 33px;
+}
+
+/*---------------------Testimonials-----------------------------*/
+
+.people{
+  margin: 0 auto;
+  display: flex;
+  max-width: 1440px;
+  padding-left: 165px;
+  max-height: 722px;
+}
+
+.testimonials h2{
+  width: 217px;
+  font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+color: #25202F;
+}
+
+.testimonials h3{
+color: #8643DC;
+}
+
+.testimonials{
+
+  height: 722px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote{
+	text-align: center;
+  Font style: medium;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.zapyataya{
+	position: absolute;
+	display: flex;
+	margin-left: 270px;
+	margin-top: 227px;
+	align-items: center;
+	color: #636066;
+	max-width: 1440px;
+	width: 569px;
+	height: 500px;
+	flex-direction: column;
+}
+
+/*.zapyataya{
+	display: grid;
+	width: 569px;
+	height: 500px;
+	grid-column-start: 3;
+	grid-row-start: 2;
+}*/
+
+.zap{
+	display: flex;
+width: 42px;
+height: 42px;
+} 
+
+.michal{
+	display: flex;
+	align-self: center;
+	justify-self: center;
+}
+
+.mich{
+  margin: 0;
+  font style: medium;
+font-size: 20px;
+line-height: 26px;
+line-height: 100%;
+}
+
+.info{
+ float: right;
+ padding-bottom: 20px;
+}
+
+.of{
+  margin: 0;
+  Font size: 16px;
+line-height: 21px;
+line-height: 100%;
+}
+
+.photos2{
+	height: 722px;
+}
+
+.photos{
+margin-left: auto;
+margin-top: 89px;
+height: 722px;
+}
+
+.guyglass{
+	position: relative;
+	left: 20px;
+width: 70px;
+height: 70px;
+top: 59px;	
+filter: blur(2px);
+}
+
+.woman{
+	position: relative;
+	top: 200px;
+	right: 185px;
+ width: 70px;
+height: 70px;
+filter: blur(2px);
+}
+
+.guyincup{
+position: relative;
+left: 90px;
+width: 70px;
+height: 70px;
+top: 270px;	
+filter: blur(2px);
+}
+
+.guywithbeard{
+	position: relative;
+	top: 400px;
+	width: 70px;
+	height: 70px;
+	right: 185px;
+  filter: blur(2px);
+}
+
+/*---------------------Blog-----------------------------*/
+
+.blogphot{
+	margin: 0 auto;
+  	display: flex;
+  	max-width: 1440px;
+  	padding-left: 165px;
+  	max-height: 350px;
+}
+
+.blog h2{
+  width: 217px;
+  font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+color: #25202F;
+}
+.blog h3{
+  color: #8643DC;
+}
+
+.photos3{
+display: flex;
+justify-content: space-between;
+margin-left: 25px;
+
+}
+
+.textphot{
+	width: 350px;
+	display: flex;
+	margin-right: 30px;
+	flex-direction: column;
+}
+
+.dataploto{
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  width: 197px;
+  padding-top: 250px;
+ 
+}
+
+.data1{
+  color: white;
+	font-style: Medium;
+font-size: 16px;
+line-height: 21px;
+line-height: 100%;
+  margin: 2px;
+}
+
+.data2{
+	color: white;
+ font-style: Medium;
+font-size: 16px;
+line-height: 21px;
+line-height: 100%;
+}
+
+.plot1{
+  font-style: Bold;
+font-size: 20px;
+line-height: 26px;
+line-height: 100%;
+ margin: 2px;
+ color: white;
+}
+
+.plot2{
+  font-style: Bold;
+font-size: 20px;
+line-height: 26px;
+line-height: 100%;
+color: white;
+}
+
+.textphoto{
+	width: 255px;
+	margin-right: 30px;
+	display: flex;
+}
+
+.technology{
+width: 350px;
+height: 233px;
+margin-right: 30px;
+}
+
+.aplication{
+width: 255px;
+height: 350px;
+margin-right: 30px;
+}
+
+.problems{
+width: 255px;
+height: 350px;
+margin-right: 30px;
+}
+
+/*---------------------Footer-----------------------------*/
+
+.Form{
+	margin: 0 auto;
+	display: flex;
+	padding-left: 165px;
+	max-width: 1440px;
+  max-height: 902;
+  margin-top: 150px;
+  flex-direction: column;
+}
+
+.let{
+	height: 156px;
+  width: 512px;
+}
+
+.iconsss{
+  float: right;
+  margin-top: 36px;
+ margin-right: 174px;
+ align-items: center;
+}
+
+.clip{
+   padding-right: 25px;
+   align-items: center;
+}
+
+.strela{
+  align-items: center;
+}
+
+#contact-form{
+
+}
+
+
+#contact-form input[type="submit"] {
+   
+    width: 200px;
+    height: 60px;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 100px;    
+    background-color: #8643DC;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #fff;
+}
+
+#contact-form input[type="submit"]:hover{
+
+    background-color: #FFE4C4;
+}
+
+#contact-form input[type="email"]{
+    height: 44px;
+    width: 1110px;
+    margin-top: 44px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: black solid 1px;
+    background-color: white;
+}
+
+
+.cooopy{
+  font-size: 40px;
+}
+
+.footeeeer{
+  
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.ContactMe h2{
+  font-style: medium;
+font-size: 36px;
+line-height: 52px;
+line-height: 123%;
+}
+.ContactMe h3{
+  color: #8643DC;
+}
+.friends{
+  font-size: 40px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1440px;
+  margin-top: 100px;
+ 
+}
+
+.footicon{
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  
+}
+
+.iconfooter{
+  margin-right: 40px;
+}
+
+
+
